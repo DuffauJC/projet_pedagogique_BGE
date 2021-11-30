@@ -1,0 +1,366 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+h1 {
+  font-size: 2em;
+  text-decoration-line: underline;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.17em;
+}
+
+h4 {
+  font-size: 1em;
+}
+
+h5 {
+  font-size: 0.83em;
+}
+
+h6 {
+  font-size: 0.67em;
+}
+
+span {
+  text-decoration-line: underline;
+}
+
+label {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.selectReponse select {
+  margin: auto;
+  width: 300px;
+}
+
+::placeholder {
+  font-weight: bold;
+  color: #bbdefb;
+}
+
+
+
+/* ************* header *****************************/
+
+.headWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.head_logo {
+  width: 200px;
+  padding-top: 15px;
+}
+
+.head_title {
+  width: 600px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.head_profil {
+  width: 200px;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.roundedImage {
+  border-radius: 50% 50%;
+  height: 120px;
+}
+
+/* *************** AdminNavbar ************** */
+.adminNavBar {
+  background-color: #9dfbb5;
+}
+
+.adminNavBar a {
+  color: #9dabfb !important;
+}
+
+.adminNavBar li {
+  padding-right: 40px;
+  color: #9dabfb !important;
+}
+
+.searchBar label {
+  color: white !important;
+}
+
+#search {
+  background-color: aliceblue;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.lienscompte {
+  display: none;
+  position: absolute;
+  background-color: #9dfbb5;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.lienscompte a {
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.lienscompte a:hover {
+  background-color: #f0f4c3;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .lienscompte {
+  display: block;
+}
+
+
+/* ************************* Home page */
+
+.homePage {
+  text-align: center;
+}
+
+.homePage img {
+  max-width: 1000px;
+  max-height: 500px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 40px;
+}
+
+.login {
+  text-align: center;
+  font-size: 25px;
+}
+
+.login a {
+  color: rgb(255, 0, 170) !important;
+}
+
+/* *********************** Page connect */
+.pageConnect {
+  max-width: 1200px;
+  margin: auto;
+}
+.submitLogin{
+  margin-top: 40px;
+    
+
+}
+
+.formConnect {
+  max-width: 800px;
+  margin: auto;
+  margin-top: 40px;
+}
+
+/* *************** lien de la vue détail**** */
+
+.lienDetail li {
+  margin-bottom: 20px;
+}
+
+.modification {
+  background-color: blue;
+}
+
+.retourListe {
+  background-color: #bbdefb;
+}
+
+
+/* ***************************liste compte ***********************************/
+.compteListewrapper {
+  display: flex;
+  margin: auto;
+  padding: 10px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.compteList-item {
+  margin: auto;
+  max-width: 450px;
+  box-shadow: 5px 5px 2px grey;
+  margin-bottom: 60px;
+}
+
+.compteList-color {
+  background-color: #b2dfdb !important;
+}
+
+.compteListe-link {
+  background-color: #f0f4c3 !important;
+
+}
+
+.compteListe-link-delete {
+  color: #ff0000 !important;
+  cursor: pointer;
+}
+
+.compteListe-link-detail {
+  color: #0004ff !important;
+}
+
+/* ***************************** Detail (compte) */
+
+.retourComptes {
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 30px;
+}
+
+.detail {
+  margin: auto;
+  min-width: 450px;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.comptedetail {
+  background-color: #b2dfdb !important;
+  box-shadow: 5px 5px 2px rgb(253, 165, 2);
+  min-width: 350px;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.comptedetail textarea {
+  padding: 5px;
+  height: 80px;
+  border-style: none;
+}
+
+.imagecomptedetail {
+  background-color: #546e7a;
+  height: 200px;
+  width: 200px;
+  box-shadow: 5px 5px 2px rgb(255, 166, 1);
+
+}
+
+/* ***************************** creation compte ********** */
+.creationCompte {
+  margin: auto;
+  max-width: 1600px;
+}
+
+.formCompte label {
+  font-size: 17px;
+}
+
+.vignette_profil {
+  max-height: 200px;
+  max-width: 200px;
+}
+
+/* ************************ compte modification **************** */
+.modificationCompte {
+  margin: auto;
+  max-width: 1600px;
+}
+
+.formCompte h4 {
+  text-decoration: underline;
+  color: #ff3d00;
+}
+
+.modifStatut {
+  background-color: darkorange;
+}
+
+/* ************************ formation liste ******************* */
+.formationListewrapper {
+  display: flex;
+  margin: auto;
+  padding: 10px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.formationList-item {
+  margin: auto;
+  min-width: 400px;
+  max-width: 650px;
+  box-shadow: 5px 5px 2px grey;
+  margin-bottom: 60px;
+}
+
+.formationList-color {
+  background-color: #b2dfdb !important;
+}
+
+.formationList-link {
+  background-color: #f0f4c3 !important;
+
+}
+
+.formationList-link-delete {
+  color: #ff0000 !important;
+  cursor: pointer;
+}
+
+.formationList-link-detail {
+  color: #0004ff !important;
+}
+
+/* ************************** Modification formation */
+.modifFormation {
+  border: 1px solid red;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.modifFormation P {
+  color: red;
+}
+
+/* ****************** Seance detail */
+.seancedetail {
+  background-color: #b2dfdb !important;
+  box-shadow: 5px 5px 2px rgb(253, 165, 2);
+  min-width: 350px;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.lienPdf {
+  background-color: red;
+}
+
+/* ************************** Stagiaires liste */
+.imagestagiairedetail {
+  background-color: #546e7a;
+  height: 200px;
+  width: 200px;
+  box-shadow: 5px 5px 2px rgb(255, 166, 1);
+
+}
